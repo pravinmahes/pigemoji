@@ -1,0 +1,97 @@
+.face {
+    height: 300px;
+    width: 300px;
+    background: pink;
+    border: 1px solid black;
+    border-radius: 200px;
+    margin-top: -80px;
+    margin-left: 605px;
+    position: absolute;
+
+}
+.eyeball {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-left: 5px;
+}
+.leye{
+    height: 80px;
+    width: 80px;
+    background: white;
+    border-radius: 200px;
+}
+.reye{
+    height: 80px;
+    width: 80px;
+    background: white;
+    border-radius: 200px;
+}
+.lpupil{
+    height: 40px;
+    width: 40px;
+    background: black;
+    border-radius: 200px;
+}
+.rpupil{
+    height: 40px;
+    width: 40px;
+    background: black;
+    border-radius: 200px;
+}
+.nose{
+    height: 60px;
+    width: 120px;
+    background: brown;
+    border-radius: 200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-left: 87px;
+}
+.rnostrils{
+    height: 40px;
+    width: 40px;
+    background: black;
+    margin-top: 10px;
+    border-radius: 200px;
+}
+.lnostrils{
+    height: 40px;
+    width: 40px;
+    background: black;
+    margin-top: 10px;
+    border-radius: 200px;
+}
+.ears{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 300px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.lear{
+    height: 100px;
+    width: 100px;
+    background: pink;
+    margin-left: 65px;
+    border: 1px solid black;
+    border-radius: 200px 200px 0px 0px;
+}
+.rear{
+    height: 100px;
+    width: 100px;
+    background: pink;
+    margin-right: 65px;
+    border: 1px solid black;
+    border-radius: 200px 200px 0px 0px;
+}
+.face:hover .rpupil{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.face:hover .lpupil{
+    margin-top: 20px;
+    margin-left: 20px;
+}
